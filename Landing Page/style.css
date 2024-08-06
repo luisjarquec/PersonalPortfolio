@@ -108,9 +108,28 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:8rem;
+    height: 100vh;
     background-color: rgb(31, 33, 43);
 }
+
+.home-content{
+    display: flex;
+    width: 100%;
+}
+
+.home-content div{
+    flex: 1;
+    padding: 20px;
+}
+
+.col1{
+    margin-top: 50px;
+}
+
+.col2{
+    margin-left: 50px;
+}
+
 
 .home .home-content h1{
     font-size: 6rem;
@@ -139,16 +158,18 @@ span{
 }
 
 .home-img{
-    border-radius:  50%;
+    justify-content: center;
+    display: flex;
 }
 
 .home-img img{
     position: relative;
-    width: 32vw;
-    border-radius: 50%;
+    width: 25vw;
+    border-radius: 100%;
     box-shadow: 0 0 25px rgb(206, 116, 233);
     cursor: pointer;
     transition: 0.2s linear;
+    display: block;
 }
 
 .socials i{
