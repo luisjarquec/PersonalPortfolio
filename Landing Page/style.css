@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -16,9 +15,9 @@ html{
 body{
     width: 100%;
     height: 100vh;
-    overflow-x: hidden;
     background-color: rgb(31, 33, 43);
     color: white;
+    overflow: hidden;
 }
 
 header{
@@ -45,26 +44,44 @@ header{
 
 .dot{
     color:rgb(206, 116, 233);
+    font-size: 35px;
 }
 
 .logo:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
-nav a{
+nav a {
     font-size: 20px;
     color: white;
     margin-left: 4rem;
     font-weight: 500;
-    transition: 0.3s ease;
-    border-bottom: 3px solid transparent;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+nav a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: rgb(206, 116, 233);
+    display: block;
+    margin: auto;
+    transition: width 0.5s;
+    position: absolute;
+    left: 0;
+}
+
+nav a:hover::after,
+nav a.active::after {
+    width: 100%;
 }
 
 nav a:hover,
-nav a.active{
+nav a.active {
     color: rgb(206, 116, 233);
-    border-bottom: 3px solid rgb(206, 116, 233);
 }
+
 
 @media(max-width:995px){
     nav{
@@ -110,11 +127,13 @@ section{
     align-items: center;
     height: 100vh;
     background-color: rgb(31, 33, 43);
+    
 }
 
 .home-content{
     display: flex;
     width: 100%;
+    
 }
 
 .home-content div{
@@ -123,12 +142,11 @@ section{
 }
 
 .col1{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
-.col2{
-    margin-left: 50px;
-}
+
+
 
 
 .home .home-content h1{
@@ -157,22 +175,49 @@ span{
     font-size: 20px;
 }
 
-.home-img{
-    justify-content: center;
-    display: flex;
-}
-
-.home-img img{
+.home-img {
     position: relative;
-    width: 25vw;
-    border-radius: 100%;
-    box-shadow: 0 0 25px rgb(206, 116, 233);
-    cursor: pointer;
-    transition: 0.2s linear;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.socials i{
+.home-img img {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.circle {
+    position: absolute;
+    background-color: rgb(219, 125, 248);
+    border-radius: 50%;
+    width: 32vw;
+    height: 32vw;
+}
+
+.circle span {
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    
+    background: inherit;
+    border-radius: inherit;
+    animation: pulseAnimate 4s ease-out infinite;
+    animation-delay: calc(1s * var(--i));
+}
+
+@keyframes pulseAnimate {
+    100% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+}
+
+.socials a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -184,35 +229,57 @@ span{
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
-    color: rgb(206, 116, 233)b;
+    color: rgb(206, 116, 233);
+    cursor: pointer;
 }
 
-.socials i:hover{
+.socials a:hover{
     color: rgb(31, 33, 43);
     transform: scale(1.3) translateY(-5px);
     background-color: rgb(206, 116, 233);
     box-shadow: 0  0 25px rgb(206, 116, 233);
 }
 
-.hire-btn{
+.down-btn{
     display: inline-block;
+    align-items: center;
     padding: 1rem 2.8rem;
     background-color: rgb(31, 33, 43);
     border-radius: 4rem;
     font-size: 1.6rem;
     color: rgb(206, 116, 233);
     letter-spacing: 0.3rem;
-    font-weight: 600;
     border: 2px solid rgb(206, 116, 233);
     transition: 0.3s ease;
     cursor: pointer;
 }
 
-.hire-btn:hover{
+.down-btn:hover{
     transform: scale3d(1.03);
     background-color: rgb(206, 116, 233);
     color: rgb(31, 33, 43);
     box-shadow: 0 0 25px rgb(206, 116, 233);
+}
+
+.hire-btn{
+    padding: 1rem 2.8rem;
+    background-color:rgb(206, 116, 233);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+    color:rgb(31, 33, 43);
+    letter-spacing: 0.15rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border: 3px solid rgb(206, 116, 233);
+}
+
+.hire-btn:hover{
+    background-color: rgb(31, 33, 43);
+    border: 3px solid rgb(206, 116, 233);
+    color:rgb(206, 116, 233);
+    font-weight: 900;
+    transition: 0.5s;
 }
 
 .home-text{
@@ -259,10 +326,10 @@ span{
         content: "Web Designer";
     }
     61%, 80%{
-        content: "Semi-Pro Padel Player";
+        content: "Padel Player";
     }
     81%, 100%{
-        content: "Solidity Student";
+        content: "BlockChain Student";
     }
 }
 
