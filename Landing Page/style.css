@@ -12,12 +12,32 @@ html{
     font-size: 62.5%;
 }
 
+body header{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 body{
     width: 100%;
     height: 100vh;
     background-color: rgb(31, 33, 43);
     color: white;
     overflow: hidden;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 header{
@@ -48,7 +68,7 @@ header{
 }
 
 .logo:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 nav a {
