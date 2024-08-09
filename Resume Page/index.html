@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">    
     <script src="https://kit.fontawesome.com/2e34cb3d1a.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -26,4 +27,31 @@
         <a href="" class="hire-btn">Hire Me</a>
     </header>
 </body>
+    <div class="resume-container">
+        <h2>Why hire me?</h2>
+        <h3>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit.</h5>
+        <div class="content-wrapper">
+            <div class="col1">
+                <div class="buttons">
+                    <button onclick="showContent('education')">Education</button>
+                    <button onclick="showContent('experience')">Experience</button>
+                    <button onclick="showContent('skills')">Skills</button>
+                </div>
+            </div>
+            <div class="col2">
+                <div id="education" class="content-section">
+                    <h3>Education</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quas aliquam similique illum exercitationem atque obcaecati eligendi ut dolorem distinctio, hic numquam nemo consectetur repellat consequuntur reprehenderit odit inventore doloribus?</p>
+                </div>
+                <div id="skills" class="content-section" style="display:none">
+                    <h3>Skills</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quas aliquam similique illum exercitationem atque obcaecati eligendi ut dolorem distinctio, hic numquam nemo consectetur repellat consequuntur reprehenderit odit inventore doloribus?</p>
+                </div>
+                <div id="experience" class="content-section" style="display:none">
+                    <h3>Experience</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quas aliquam similique illum exercitationem atque obcaecati eligendi ut dolorem distinctio, hic numquam nemo consectetur repellat consequuntur reprehenderit odit inventore doloribus?</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </html>
