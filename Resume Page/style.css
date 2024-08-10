@@ -48,8 +48,19 @@ h2 {
     padding-left: 20px;
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 .content-section {
     display: none;
+    animation: fadeIn ease 1s forwards;
 }
 
 .content-section h1 {
