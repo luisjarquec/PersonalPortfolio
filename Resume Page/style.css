@@ -10,6 +10,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+.resume-container h3{
+    color: rgb(112, 112, 112);
+}
+
 .content-wrapper {
     display: flex;
 }
@@ -27,7 +31,7 @@ h2 {
     margin-left: 25px;
     font-size: 18px;
     letter-spacing: 1.3px;
-    background-color: rgb(51, 54, 68);
+    background-color: rgb(46, 49, 59);
     border-radius: 3px;
     color: white;
     cursor: pointer;
@@ -50,9 +54,14 @@ h2 {
 
 .content-section h1 {
     position: relative;
-    top: -30px;
+    top: -40px;
     font-size: 25px;
+}
 
+.content-section h3{
+    position: relative;
+    top: -25px;
+    color: rgb(112, 112, 112);
 }
 
 .content-section.active {
@@ -73,7 +82,7 @@ h2 {
 .skill-icon{
     flex: 0 1 19%;
     text-align: center;
-    background-color:  rgb(51, 54, 68);
+    background-color:  rgb(46, 49, 59);
     padding: 20px;
     border-radius: 7px;
 }
@@ -86,4 +95,49 @@ h2 {
 .skill-icon i:hover{
     color: rgb(206, 116, 233);
     transition: color 0.4s ease;
+}
+
+
+.languages-grid{
+    display: flex;
+    margin-top: 0px;
+    gap: 40px;
+    padding:15px;
+    flex-wrap: wrap;
+}
+
+.language-icon{
+    background-color:  rgb(46, 49, 59);
+    padding: 15px;
+    border-radius: 7px;
+    width: 360px;
+    transition: 0.25s;
+}
+
+.language-icon h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.language-icon h6{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: -15px;
+    margin-bottom: 8px;
+}
+
+.language-icon span{
+    font-size: 20px;
+    align-items: center;
+    font-weight: 900;
+}
+
+.language-icon a{
+    color: rgb(206, 116, 233);
+    font-size: 14px;
+}
+
+.language-icon:hover{
+    box-shadow: 0  0 7px rgb(206, 116, 233);
+
 }
