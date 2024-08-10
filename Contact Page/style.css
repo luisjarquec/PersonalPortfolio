@@ -2,10 +2,9 @@
     display: flex;
     padding: 40px;
     border-radius: 5px;
-    margin-top: 150px;
+    margin-top: 130px;
     color: white;
     margin-left: 150px;
-    ;
 }
 
 
@@ -61,13 +60,22 @@ select:focus {
 }
 
 button{
-    padding: 12px;
+    padding: 10px;
     border-radius: 20px;
     color: rgb(31, 33, 43);
     background-color: rgb(206, 116, 233);
+    border: 3px solid rgb(206, 116, 233);
+    font-weight: 700;
     letter-spacing: 0.7xpx;
+    width: 160px;
+    transition: 0.7s ease;
 }
 
+button:hover{
+    background-color: rgb(31, 33, 43);
+    color: rgb(206, 116, 233);
+
+}
 
 .contact-info{
     width: 40%;
@@ -82,10 +90,16 @@ button{
 .info{
     display: flex;
     align-items: center;
+    transition: 0.5s ease;
+}
+
+.info:hover{
+    transform: scale(1.1);
 }
 
 .info-text{
     font-size: 17px;
+    letter-spacing: 1.2px;
     color: rgb(112, 112, 112);
 }
 
