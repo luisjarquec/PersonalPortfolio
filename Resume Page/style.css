@@ -81,6 +81,7 @@ h2 {
 
 
 .skill-grid{
+    text-align: center;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -91,16 +92,19 @@ h2 {
 }
 
 .skill-icon{
-    flex: 0 1 19%;
-    text-align: center;
+    height: 110px;
+    width: 80px;
+    flex: 0 1 21%;
     background-color:  rgb(46, 49, 59);
     padding: 20px;
     border-radius: 7px;
 }
 
 .skill-icon i{
-    font-size: 65px;
+    font-size: 70px;
     color: white;
+    text-align: center;
+    justify-content: center;
 }
 
 .skill-icon i:hover{
