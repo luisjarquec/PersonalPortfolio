@@ -1,0 +1,43 @@
+.schedule {
+    text-align: center;
+    margin-top: 80px;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+}
+
+.schedule-content {
+    margin: 0 auto;
+}
+
+.schedule-content h1{
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgb(206, 116, 233);
+}
+
+.schedule-content p{
+    font-size: 16px;
+    text-align: left;
+}
+
+.calendly-container iframe {
+    margin-top: 45px;
+    border: none;
+    border-radius: 8px;
+    height: 650px;
+}
+
+@media (max-height: 900px) {
+    .schedule-content {
+        padding: 1rem;
+    }
+    
+    .calendly-container iframe {
+        height: 500px; 
+    }
+}
+
+

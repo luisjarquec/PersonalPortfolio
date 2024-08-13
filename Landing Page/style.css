@@ -303,6 +303,20 @@ span{
     transition: 0.5s;
 }
 
+.hire-btn-active{
+    font-size: 1.6rem;
+    letter-spacing: 0.15rem;
+    cursor: pointer;
+    border-radius: 4rem;
+    padding: 1rem 2.8rem;
+    background-color: rgb(31, 33, 43);
+    border: 3px solid rgb(206, 116, 233);
+    color:rgb(206, 116, 233);
+    font-weight: 900;
+    transition: 0.5s;
+    box-shadow: 0  0 25px rgb(206, 116, 233);
+}
+
 .home-text{
     font-size: 34px;
     font-weight: 600;
