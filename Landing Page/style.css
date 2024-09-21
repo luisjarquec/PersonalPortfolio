@@ -55,7 +55,7 @@ header{
 }
 
 .logo{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color:rgb(255, 255, 255);
     font-weight: 800;
     cursor: pointer;
@@ -186,13 +186,13 @@ span{
 }
 
 .home-content h3{
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    margin-bottom: 1.3rem;
     font-weight: 700;
 }
 
 .home-content p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -288,7 +288,7 @@ span{
     padding: 1rem 2.8rem;
     background-color:rgb(206, 116, 233);
     border-radius: 4rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 900;
     color:rgb(31, 33, 43);
     letter-spacing: 0.15rem;
