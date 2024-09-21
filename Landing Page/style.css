@@ -55,7 +55,7 @@ header{
 }
 
 .logo{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color:rgb(255, 255, 255);
     font-weight: 800;
     cursor: pointer;
@@ -313,7 +313,7 @@ span{
     padding: 1rem 2.8rem;
     background-color:rgb(206, 116, 233);
     border-radius: 4rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     color:rgb(31, 33, 43);
     letter-spacing: 0.15rem;
