@@ -9,7 +9,7 @@
 }
 
 html{
-    font-size: 45%;
+    font-size: 62.5%;
 }
 
 body header{
@@ -162,7 +162,8 @@ section{
 }
 
 .col1{
-    margin-top: 60px;
+    margin-top: 90px;
+
 }
 
 
@@ -170,7 +171,7 @@ section{
 
 
 .home .home-content h1{
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: 700;
     line-height: 1.3;
 }
@@ -261,6 +262,32 @@ span{
     transform: scale(1.3) translateY(-5px);
     background-color: rgb(206, 116, 233);
     box-shadow: 0  0 25px rgb(206, 116, 233);
+}
+
+@media (min-width: 1200px) {
+    .socials a {
+        width: 5rem;
+        height: 5rem;
+        font-size: 2.5rem;
+    }
+}
+
+/* Responsivo para pantallas medianas (tabletas) */
+@media (max-width: 995px) {
+    .socials a {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 1.8rem;
+    }
+}
+
+/* Responsivo para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    .socials a {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.6rem;
+    }
 }
 
 .down-btn{
