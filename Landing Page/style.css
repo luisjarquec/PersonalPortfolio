@@ -266,26 +266,24 @@ span{
 
 @media (min-width: 1200px) {
     .socials a {
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
         font-size: 2.5rem;
     }
 }
 
-/* Responsivo para pantallas medianas (tabletas) */
 @media (max-width: 995px) {
     .socials a {
-        width: 3.5rem;
-        height: 3.5rem;
+        width: 3rem;
+        height: 3rem;
         font-size: 1.8rem;
     }
 }
 
-/* Responsivo para pantallas pequeñas (móviles) */
 @media (max-width: 600px) {
     .socials a {
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
         font-size: 1.6rem;
     }
 }
