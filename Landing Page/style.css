@@ -103,39 +103,6 @@ nav a.active {
 }
 
 
-@media(max-width:995px){
-    nav{
-        position: absolute;
-        display: none;
-        top: 0;
-        right: 0;
-        width: 40%;
-        border-left: 3px solid rgb(206, 116, 233);
-        border-bottom: 3px solid rgb(206, 116, 233);
-        border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
-        background-color: rgb(31, 33, 43);
-        border-top: 0.1rem solid rgba(0,0,0,0.1);
-    }
-
-    nav.active{
-        display: block;
-    }
-
-    nav a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-
-    nav a:hover,
-    nav a.active{
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border-bottom: 0.5rem solid rgb(206, 116, 233);
-    }
-}
-
 section{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
@@ -165,10 +132,6 @@ section{
     margin-top: 90px;
 
 }
-
-
-
-
 
 .home .home-content h1{
     font-size: 7rem;
@@ -206,7 +169,6 @@ span{
 }
 
 .home-img img {
-    
     position: relative;
     width: 30vw;
     height: 30vw;
@@ -368,7 +330,7 @@ span{
     height: 100%;
     border-left: 3px solid rgb(31, 33, 43);
     right: -8;
-    animation: cursor 0.6s infinite;
+    animation: cursor 0.6s infinite;    
 }
 
 @keyframes cursor{
@@ -419,4 +381,77 @@ span{
         width: 70vw;
         margin-top: 4rem;
     }
+    
+    .hire-btn{
+        display: none;
+    }
+
+    body, html{
+        overflow-y: auto;
+    }
+
+    .col2 {
+        margin-top: 2rem; 
+        display: none;
+        justify-content: center;
+    }
+    
+    .home-img {
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+
+    nav a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    nav.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 90%;
+        right: 8%;
+        width: 20%; 
+        background-color: rgb(39, 41, 49); 
+        padding: 10px;
+        border-radius: 8px;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        font-size: 2.5rem;
+        color: white;
+        cursor: pointer;
+    }
+
+    .menu-toggle.active {
+        color: rgb(206, 116, 233);
+    }
+
+    .home-content {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: flex-start; 
+        width: 100%;
+        padding: 20px;
+        min-height: 100vh;
+    }
+    
+    .home-content h1, .home-content h3, .home-content p {
+        margin-bottom: 1.5rem;
+    }
 }
+
+@media (min-width: 1200px) {
+    .menu-toggle{
+        display: none;
+    }
+    
+}
+
