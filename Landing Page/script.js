@@ -1,5 +1,5 @@
 var pdfWindow = null;
-var pdfURL = 'cv.pdf'
+var pdfURL = 'Landing Page/cv.pdf'
 
 function openPDF(){
     if(pdfWindow && !pdfWindow.closed){
