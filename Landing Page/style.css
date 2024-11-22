@@ -249,28 +249,11 @@ span{
     }
 
     header{
-        background-color: rgb(102, 57, 116);
+        background-color: rgb(31, 33, 43);
         height: 60px;        
         margin-top: 0px;
     }
 
-    @keyframes words{
-        0%, 20%{
-            content: "Student";
-        }
-        21%, 40%{
-            content: "Web Developer";
-        }
-        41%, 60%{
-            content: "Web Designer";
-        }
-        61%, 80%{
-            content: "Padel Player";
-        }
-        81%, 100%{
-            content: "BlockChain Student";
-        }
-    }
 }
 
 .down-btn{
@@ -347,8 +330,7 @@ span{
 
 .home-text span::after{
     content: "";
-    position: absolute;
-    width: calc(100% + 8px);
+    width: calc(100% + 2px);
     height: 100%;
     border-left: 3px solid rgb(31, 33, 43);
     right: -80;
