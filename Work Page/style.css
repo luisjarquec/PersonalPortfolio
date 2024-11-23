@@ -33,3 +33,13 @@
         margin-top: 250px;
     }
 }
+
+@media (max-width: 600px){
+    .animated-text{
+        font-size: 40px;
+    }
+    .work-container{
+        margin-left: 70px;
+        margin-top: 250px;
+    }
+}

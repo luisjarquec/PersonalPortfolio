@@ -201,3 +201,7 @@ h2 {
     box-shadow: 0  0 7px rgb(206, 116, 233);
 
 }
+
+@media (max-width: 600px){
+    
+}

@@ -27,3 +27,11 @@
 .icons h6 {
     padding: 10px; 
 }
+
+@media (max-width: 600px){
+    .icons{
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+}
