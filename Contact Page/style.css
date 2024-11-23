@@ -123,6 +123,58 @@ button:hover{
     color: white;
 }
 
+@media (max-width: 800px){
+    .contact-container {
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px auto;
+        margin-top: 150px;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    /* Formulario */
+    .form-container {
+        width: 80%;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .form-container h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .form-container p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .form-data {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .form-data input,
+    .form-data select,
+    .form-data textarea {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .info{
+        display: none;
+    }
+}
+
+
 @media (max-width: 600px) {
     /* Contenedor principal */
     .contact-container {
