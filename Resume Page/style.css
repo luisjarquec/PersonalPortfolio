@@ -204,12 +204,12 @@ h2 {
 
 @media (max-width: 600px) {
     .resume-container {
-        flex-direction: column; /* Cambia a disposición en columna */
-        gap: 10px; /* Ajusta el espaciado */
+        flex-direction: column; 
+        gap: 10px; 
     }
 
     .col1, .col2 {
-        flex: unset; /* Evita conflictos de tamaño */
-        width: 100%; /* Asegura que ambas columnas ocupen el ancho completo */
-    }
+        flex: unset; 
+        width: 100%; 
+    }   
 }
