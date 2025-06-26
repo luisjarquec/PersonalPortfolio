@@ -422,9 +422,14 @@ span{
         right: 5%;
         width: 17%; 
         background-color: rgb(39, 41, 49); 
-        padding: 15px;
         border-radius: 8px;
         text-align: center;
+        transition: 1s;
+    }
+
+    nav a:hover::after,
+    nav a.active::after {
+        width: 0;
     }
 
     .menu-toggle {
