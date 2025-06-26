@@ -205,6 +205,14 @@ h2 {
         margin-top: 150px;
     }
 
+    .resume-container h2{
+        font-size: 35px;
+    }
+
+    .resume-container h3{
+        font-size: 12px;
+    }
+
     .col1 {
         width: 100%; 
         padding-right: 0px;
@@ -218,6 +226,7 @@ h2 {
     .content-wrapper {
         display: flex;
         flex-direction: column;
+        margin-top: -40px;
     }
 
     .col2 {
@@ -231,11 +240,24 @@ h2 {
     .skill-icon {
         height: 110px;
         width: 110px;
-        flex: 0 1 40%;
+        flex: 0 1 100%;
     }
 
     .skill-grid {
         width: 100%;
-        gap: 38px;
+        gap: 30px;
     }
+
+    .languages-grid{
+        width: 275px;
+        background-color: antiquewhite;
+    }
+    .language-icon h2{
+        font-size: 12px;
+    }
+
+    .language-icon a{
+        font-size: 12px;
+    }
+
 }
