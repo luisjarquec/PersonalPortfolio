@@ -33,17 +33,17 @@
         <div class="form-container">
             <h2>Let's Work Together</h2>
             <p>I'd love to hear from you! Whether you have a question, a project idea, or just want to connect, feel free to reach out. I'll do my best to get back to you as soon as possible.</p>
-            <form action="">
+            <form action="https://formspree.io/f/xyzjbqzw"  method="POST">
                 <div class="form-data">
-                    <input type="text" placeholder="First name" required>
-                    <input type="text" placeholder="Last name" required>
+                    <input type="text"  name="firstname" placeholder="First name" required>
+                    <input type="text" name="lastname" placeholder="Last name" required>
                 </div>
                 <div class="form-data">
-                    <input type="email" placeholder="Email address" required>
-                    <input type="tel" placeholder="Phone number" required>
+                    <input type="email" name="email" placeholder="Email address" required>
+                    <input type="tel" name="telephone" placeholder="Phone number" required>
                 </div>
                 <div class="form-data">
-                    <select required>
+                    <select name="service" required>
                         <option value="">Select a service</option>
                         <option value="web">Web Development</option>
                         <option value="software">Software Development</option>
