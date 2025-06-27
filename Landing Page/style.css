@@ -400,6 +400,10 @@ span{
         justify-content: center;
     }
     
+    .col1 {
+        margin-top: 40px;
+    }
+
     .home-img {
         display: none;
     }
@@ -454,6 +458,13 @@ span{
     
     .home-content h1, .home-content h3, .home-content p {
         margin-bottom: 1.5rem;
+    }
+
+        .lang-selector {
+    position: fixed;
+    top: 15px;
+    margin-left: 175px;
+    z-index: 0;
     }
 }
 

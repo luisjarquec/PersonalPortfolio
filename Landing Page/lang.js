@@ -21,7 +21,7 @@ const translations = {
     "role": "Estudiante de <span>Ingeniería del Software</span>",
     "iam": "Soy un <span></span>",
     "description": "Soy Luis Jarque, un <span>estudiante de ingeniería del software</span> apasionado por crear soluciones innovadoras y aplicaciones centradas en el usuario. Mi camino en la tecnología está impulsado por el <span>deseo</span> de resolver <span>problemas reales</span> y mejorar constantemente mis habilidades. Estoy entusiasmado por aprender nuevas tecnologías y contribuir a proyectos con impacto.",
-    "btn-download": "Descargar CV <i class='fa-solid fa-download'></i>",
+    "btn-download": "Descarga CV <i class='fa-solid fa-download'></i>",
   }
 };
 

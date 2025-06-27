@@ -15,38 +15,39 @@
     <script src="https://kit.fontawesome.com/2e34cb3d1a.js"></script>
     <script src="script.js"></script>
     <script src="../Landing Page/script.js"></script>
+    <script src="./script.js"></script>
+
 </head>
 <body>
     <header>
-        <a href="../index.html" class="logo">Luis<span class="dot">.</span></a>
+        <a href="" class="logo">Luis<span class="dot">.</span></a>
         <nav>
-            <a href="../index.html" >Home</a>
-            <a href="../About Me Page/index.html" >About Me</a>
-            <a href="index.html" class="active">Resume</a>
-            <a href="../Work Page/index.html" >Work</a>
-            <a href="../Contact Page/index.html" >Contact</a>
+            <a href="" id="nav-home">Home</a>
+            <a href="../About Me Page/index.html" id="nav-about" class="active" >About Me</a>
+            <a href="../Resume Page/index.html" id="nav-resume">Resume</a>
+            <a href="../Work Page/index.html" id="nav-work">Work</a>
+            <a href="../Contact Page/index.html" id="nav-contact">Contact</a>
         </nav>
-        <a href="../Hiring Page/index.html" class="hire-btn">Hire Me</a>
+        <a href="../Hiring Page/index.html" class="hire-btn" id="btn-hire">Hire Me</a>
         <div class="menu-toggle" id="mobile-menu">&#9776;</div>
     </header>
 </body>
     <div class="resume-container">
-        <h2>Why hire me?</h2>
-        <h3>Discover why I would be a great fit</h3>
-        <h3>for your team.</h3>
+        <h2 id="why-hire-title">Why hire me?</h2>
+        <h3 id="why-hire-subtitle">Discover why I would be a great fit for your team.</h3>
         <div class="content-wrapper">
             <div class="col1">
                 <div class="buttons">
-                    <button onclick="showContent('education')">Education</button>
-                    <button onclick="showContent('skills')">Skills</button>
-                    <button onclick="showContent('experience')">Experience</button>
-                    <button onclick="showContent('languages')">Languages</button>
+                    <button id="education-title" onclick="showContent('education')">Education</button>
+                    <button id="skills-title" onclick="showContent('skills')">Skills</button>
+                    <button id="experience-title" onclick="showContent('experience')">Experience</button>
+                    <button id="languages-title" onclick="showContent('languages')">Languages</button>
                 </div>
             </div>
             <div class="col2">
                 <div id="education" class="content-section">
-                    <h1>My Education</h1>
-                    <h3>Details about my educational background.</h3>
+                    <h1 id="edu-section-title">My Education</h1>
+                    <h3 id="edu-description">Details about my educational background.</h3>
                     <div class="languages-grid">
                         <div class="language-icon">
                             <h2>British School Of Vila-Real<br><a> (2007 - 2022)</a></h2>
@@ -155,4 +156,10 @@
             </div>
         </div>
     </div>
+    <footer>
+    <div class="lang-selector">
+        <span onclick="setLanguage('es')" style="cursor:pointer;"><img src="../images/spain.png"></span>
+        <span onclick="setLanguage('en')" style="cursor:pointer;"><img src="../images/uk.png"></span>
+    </div>
+    </footer>
 </html>
