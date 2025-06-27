@@ -480,3 +480,28 @@ span{
     }
 }
 
+.lang-selector {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 999;
+  display: flex;
+  gap: 10px;
+  font-size: 24px;
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+.lang-selector img{
+    width: 35px;
+}
+
+.lang-selector img.selected {
+    outline: 2px solid white;
+    outline-offset: 0px;
+    border-radius: 6px; /* puedes poner 0 si no quieres esquinas redondeadas */
+}
+
+
+
+
