@@ -17,7 +17,7 @@ const translations = {
     "nav-contact": "Contacto",
     "btn-hire": "Contrátame",
 
-    "work-title": "Proyecto en desarrollo..."
+    "work-title": "Proyectos en desarrollo..."
   }
 };
 

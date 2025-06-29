@@ -2,6 +2,7 @@
     justify-content: center;
     display: flex;
     margin-top: 350px;
+    margin-inline: 50px;
 }
 
 .animated-text{
@@ -24,6 +25,13 @@
 @keyframes bgText{
     to{
         background-position: 200% center;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1100px){
+    .work-container{
+        margin-left: 280px;
+        margin-top: 250px;
     }
 }
 
