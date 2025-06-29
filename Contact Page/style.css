@@ -69,6 +69,7 @@ button{
     letter-spacing: 0.7xpx;
     width: 160px;
     transition: 0.7s ease;
+    cursor: pointer;
 }
 
 button:hover{
@@ -147,7 +148,7 @@ button:hover{
 
     .form-container p {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
     }
 
     .form-data {
@@ -199,7 +200,7 @@ button:hover{
 
     .form-container p {
         font-size: 12px;
-        text-align: center;
+        text-align: left;
     }
 
     .form-data {

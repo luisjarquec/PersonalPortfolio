@@ -15,22 +15,29 @@
     <script src="https://kit.fontawesome.com/2e34cb3d1a.js"></script>
     <script src="script.js"></script>
     <script src="../Landing Page/script.js"></script>
+    <script src="./lang.js"></script>
 </head>
 <body>
-    <header>
+     <header>
         <a href="../index.html" class="logo">Luis<span class="dot">.</span></a>
         <nav>
-            <a href="../index.html" >Home</a>
-            <a href="../About Me Page/index.html" >About Me</a>
-            <a href="../Resume Page/index.html" >Resume</a>
-            <a href="index.html" class="active" >Work</a>
-            <a href="../Contact Page/index.html" >Contact</a>
+            <a href="../index.html" id="nav-home">Home</a>
+            <a href="../About Me Page/index.html" id="nav-about" >About Me</a>
+            <a href="../Resume Page/index.html" id="nav-resume">Resume</a>
+            <a href="." id="nav-work" class="active" >Work</a>
+            <a href="../Contact Page/index.html" id="nav-contact">Contact</a>
         </nav>
-        <a href="../Hiring Page/index.html" class="hire-btn">Hire Me</a>
+        <a href="../Hiring Page/index.html" class="hire-btn" id="btn-hire">Hire Me</a>
         <div class="menu-toggle" id="mobile-menu">&#9776;</div>
     </header>
     <div class="work-container">
-        <h1 class="animated-text">Work in progress...</h1>
+        <h1 class="animated-text" id="work-title">Work in progress...</h1>
     </div>
 </body>
+<footer>
+    <div class="lang-selector">
+        <span onclick="setLanguage('es')" style="cursor:pointer;"><img src="../images/spain.png"></span>
+        <span onclick="setLanguage('en')" style="cursor:pointer;"><img src="../images/uk.png"></span>
+    </div>
+</footer>
 </html>

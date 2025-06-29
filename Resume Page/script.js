@@ -70,6 +70,7 @@ const translations = {
     "skills-title": "Habilidades",
     "experience-title": "Experiencia",
     "languages-title": "Idiomas",
+
     "edu-section-title": "Mi Formación",
     "edu-description": "Detalles sobre mi trayectoria educativa.",
     "school-1": "Primaria, Secundaria y Bachillerato",
@@ -80,12 +81,15 @@ const translations = {
     "school-4": "Proyecto final",
     "school-4-desc": "Blockchain",
     "school-5-desc": "Tecnologías de Bitcoin y Ethereum",
+
     "skills-section-title": "Mis Habilidades",
     "skills-description": "Habilidades que he adquirido con el tiempo.",
+
     "experience-section-title": "Mi Experiencia",
     "experience-description": "Resumen de mi experiencia profesional.",
     "exp-1-title": "Proyectos personales",
     "exp-1-desc": "Completamente autodidacta",
+
     "languages-section-title": "Mis Idiomas",
     "languages-description": "Idiomas que hablo y mis niveles de competencia.",
     "lang-spanish": "Competencia nativa",

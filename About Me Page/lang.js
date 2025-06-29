@@ -27,7 +27,7 @@ const translations = {
     "btn-hire": "Contrátame",
 
     "about-title": "¿Quién es <span>Luis Jarque</span>?",
-    "about-subtitle": "¡Hola! Soy Luis Jarque, un desarrollador de software apasionado con más de un año de experiencia en desarrollo web. Me especializo en crear sitios web y aplicaciones dinámicas y fáciles de usar. Mis habilidades incluyen HTML, CSS, JavaScript y diversas tecnologías que ayudan a hacer realidad las ideas. Estoy entusiasmado por aprovechar mi experiencia y entusiasmo para contribuir a nuevos proyectos emocionantes.",
+    "about-subtitle": "¡Hola! Soy Luis Jarque, un desarrollador de software apasionado con más de un año de experiencia en desarrollo web. Me especializo en crear sitios web y aplicaciones dinámicas y fáciles de usar. Mis habilidades incluyen HTML, CSS, JavaScript y diversas tecnologías que ayudan a hacer realidad las ideas. Estoy deseando aprovechar mi experiencia y entusiasmo para contribuir a nuevos proyectos emocionantes.",
     "about-name": "<span>Nombre: </span>Luis Jarque",
     "about-experience": "<span>Experiencia:</span> 1+ años",
     "about-nationality": "<span>Nacionalidad:</span> Española",
