@@ -8,7 +8,7 @@ const translations = {
     "btn-hire": "Hire Me",
 
     "about-title": "Who is <span>Luis Jarque</span>?",
-    "about-subtitle": "Hello! I'm Luis Jarque, a passionate software developer with over a year of experience in web development. I specialize in creating dynamic and user-friendly websites and applications. My skills include HTML, CSS, JavaScript, and various other technologies that help bring ideas to life. I'm eager to leverage my expertise and enthusiasm to contribute to exciting new projects.",
+    "about-subtitle": "Hello! I'm Luis Jarque, a passionate <span>software developer</span> with over a year of experience in web development. I specialize in creating <span>dynamic</span> and <span>user-friendly</span> websites and applications. My skills include <span>HTML</span> , <span>CSS</span> , <span>JavaScript</span> , and various other technologies that help bring ideas to life. I'm eager to leverage my expertise and enthusiasm to <span>contribute to exciting new projects</span>.",
     "about-name": "<span>Name: </span>Luis Jarque",
     "about-experience": "<span>Experience:</span> 1+ Years",
     "about-nationality": "<span>Nationality:</span> Spanish",
@@ -27,7 +27,7 @@ const translations = {
     "btn-hire": "Contrátame",
 
     "about-title": "¿Quién es <span>Luis Jarque</span>?",
-    "about-subtitle": "¡Hola! Soy Luis Jarque, un desarrollador de software apasionado con más de un año de experiencia en desarrollo web. Me especializo en crear sitios web y aplicaciones dinámicas y fáciles de usar. Mis habilidades incluyen HTML, CSS, JavaScript y diversas tecnologías que ayudan a hacer realidad las ideas. Estoy deseando aprovechar mi experiencia y entusiasmo para contribuir a nuevos proyectos emocionantes.",
+    "about-subtitle": "¡Hola! Soy Luis Jarque, un apasionado <span>desarrollador de software</span> con más de un año de experiencia en desarrollo web. Me especializo en crear sitios web y aplicaciones <span>dinámicas</span> y <span>fáciles de usar</span>. Mis habilidades incluyen <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span> y diversas otras tecnologías que ayudan a dar vida a las ideas. Estoy deseando aprovechar mi experiencia y entusiasmo para <span>contribuir a nuevos proyectos emocionantes</span>.",
     "about-name": "<span>Nombre: </span>Luis Jarque",
     "about-experience": "<span>Experiencia:</span> 1+ años",
     "about-nationality": "<span>Nacionalidad:</span> Española",
