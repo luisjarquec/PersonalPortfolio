@@ -8,7 +8,7 @@ const translations = {
     "btn-hire": "Hire Me",
 
     "about-title": "Who is <span>Luis Jarque</span>?",
-    "about-subtitle": "Hello! I'm Luis Jarque, a passionate <span>software developer</span> with over a year of experience in web development. I specialize in creating <span>dynamic</span> and <span>user-friendly</span> websites and applications. My skills include <span>HTML</span> , <span>CSS</span> , <span>JavaScript</span> , and various other technologies that help bring ideas to life. I'm eager to leverage my expertise and enthusiasm to <span>contribute to exciting new projects</span>.",
+    "about-subtitle": "Hello! I'm Luis Jarque, a passionate <span>software developer</span> with over a year of experience in web development. I specialize in creating <span>dynamic</span> and <span>user-friendly</span> websites and applications. My skills include <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, and various other technologies that help bring ideas to life. I'm eager to leverage my expertise and enthusiasm to <span>contribute to exciting new projects</span>.",
     "about-name": "<span>Name: </span>Luis Jarque",
     "about-experience": "<span>Experience:</span> 1+ Years",
     "about-nationality": "<span>Nationality:</span> Spanish",
