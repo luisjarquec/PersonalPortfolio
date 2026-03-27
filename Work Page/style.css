@@ -1,64 +1,175 @@
-.work-container{
-    justify-content: center;
+body {
+    overflow-y: auto;
+}
+
+header {
+    background-color: rgb(31, 33, 43);
+}
+
+.work-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px 40px 80px;
+}
+
+.work-header {
+    margin-bottom: 40px;
+}
+
+.work-header h2 {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.work-header h3 {
+    color: rgb(112, 112, 112);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.project-card {
+    background-color: rgb(46, 49, 59);
+    border-radius: 10px;
+    overflow: hidden;
     display: flex;
-    margin-top: 350px;
-    margin-inline: 50px;
+    flex-direction: column;
+    transition: box-shadow 0.25s ease;
 }
 
-.animated-text{
-    justify-content: center;
+.project-card:hover {
+    box-shadow: 0 0 10px rgb(206, 116, 233);
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
+    background-color: rgb(40, 42, 54);
+}
+
+.project-content {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.project-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.project-title-row {
+    display: flex;
     align-items: center;
-    color: #fff;
-    font-weight: 800;
-    font-size: 60px;
-    position: absolute;
-    background-image: linear-gradient(250deg, rgb(206, 116, 233) 0%, rgb(176, 10, 226) 50%, rgb(180, 52, 219) 100%);
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: bgText 2.5s linear infinite;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
 }
 
-@keyframes bgText{
-    to{
-        background-position: 200% center;
+.project-title-row .project-title {
+    margin-bottom: 0;
+}
+
+.project-company {
+    font-size: 10px;
+    color: rgb(206, 116, 233);
+    background-color: rgba(206, 116, 233, 0.12);
+    padding: 2px 7px;
+    border-radius: 4px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+}
+
+.project-description {
+    font-size: 11px;
+    color: rgb(170, 170, 170);
+    line-height: 1.7;
+    margin-bottom: 14px;
+    flex: 1;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 14px;
+}
+
+.project-tags span {
+    background-color: rgb(31, 33, 43);
+    color: rgb(206, 116, 233);
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.project-links {
+    display: flex;
+    gap: 14px;
+}
+
+.project-links a {
+    color: rgb(200, 200, 200);
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+    color: rgb(206, 116, 233);
+}
+
+.project-links a i {
+    font-size: 14px;
+}
+
+.project-private {
+    color: rgb(130, 130, 130);
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: default;
+}
+
+.project-private i {
+    font-size: 12px;
+}
+
+@media (max-width: 900px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (min-width: 800px) and (max-width: 1100px){
-    .work-container{
-        margin-left: 280px;
-        margin-top: 250px;
-    }
-}
-
-@media(max-width:995px){
-    .work-container{
-        margin-left: 150px;
-        margin-top: 250px;
-    }
-}
-
-@media (max-width: 600px){
-    .animated-text{
-        font-size: 35px;
-    }
-    .work-container{
-        margin-left: 115px;
-        margin-top: 250px;
+@media (max-width: 600px) {
+    .work-container {
+        margin-top: 120px;
+        padding: 20px 20px 60px;
     }
 
-    .lang-selector {
-    position: fixed;
-    top: 15px;
-    margin-left: 175px;
-    z-index: 0;
+    .work-header h2 {
+        font-size: 30px;
     }
 
-    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .lang-selector {
@@ -74,12 +185,13 @@
   height: 40px;
 }
 
-.lang-selector img{
+.lang-selector img {
     width: 35px;
 }
 
 .lang-selector img.selected {
     outline: 2px solid white;
     outline-offset: 0px;
-    border-radius: 6px; /* puedes poner 0 si no quieres esquinas redondeadas */
+    border-radius: 6px;
 }
+

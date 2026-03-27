@@ -8,7 +8,8 @@ const translations = {
     "btn-hire": "Hire Me",
 
     "about-title": "Who is <span>Luis Jarque</span>?",
-    "about-subtitle": "Hello! I'm Luis Jarque, a passionate <span>software developer</span> with over a year of experience in web development. I specialize in creating <span>dynamic</span> and <span>user-friendly</span> websites and applications. My skills include <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, and various other technologies that help bring ideas to life. I'm eager to leverage my expertise and enthusiasm to <span>contribute to exciting new projects</span>.",
+    "about-role": "Software Developer",
+    "about-subtitle": "Backend-focused software engineer with hands-on experience building data-driven web applications and industrial monitoring systems. Experienced in designing REST APIs, processing time-series data and deploying containerized services in production environments. Strong foundation in backend architecture, databases and scalable application design, with practical exposure to real-world systems.",
     "about-name": "<span>Name: </span>Luis Jarque",
     "about-experience": "<span>Experience:</span> 1+ Years",
     "about-nationality": "<span>Nationality:</span> Spanish",
@@ -27,7 +28,8 @@ const translations = {
     "btn-hire": "Contrátame",
 
     "about-title": "¿Quién es <span>Luis Jarque</span>?",
-    "about-subtitle": "¡Hola! Soy Luis Jarque, un apasionado <span>desarrollador de software</span> con más de un año de experiencia en desarrollo web. Me especializo en crear sitios web y aplicaciones <span>dinámicas</span> y <span>fáciles de usar</span>. Mis habilidades incluyen <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span> y diversas otras tecnologías que ayudan a dar vida a las ideas. Estoy deseando aprovechar mi experiencia y entusiasmo para <span>contribuir a nuevos proyectos emocionantes</span>.",
+    "about-role": "Desarrollador de Software",
+    "about-subtitle": "Ingeniero de software enfocado en backend con experiencia práctica desarrollando aplicaciones web basadas en datos y sistemas de monitorización industrial. Experiencia en el diseño de APIs REST, procesamiento de datos de series temporales y despliegue de servicios contenerizados en entornos de producción. Base sólida en arquitectura backend, bases de datos y diseño de aplicaciones escalables, con exposición directa a sistemas reales.",
     "about-name": "<span>Nombre: </span>Luis Jarque",
     "about-experience": "<span>Experiencia:</span> 1+ años",
     "about-nationality": "<span>Nacionalidad:</span> Española",

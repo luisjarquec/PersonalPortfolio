@@ -154,18 +154,18 @@ h2 {
 }
 
 .languages-grid{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 0px;
-    gap: 40px;
+    gap: 25px;
     padding:15px;
-    flex-wrap: wrap;
 }
 
 .language-icon{
     background-color:  rgb(46, 49, 59);
     padding: 15px;
     border-radius: 7px;
-    width: 360px;
+    width: 420px;
     transition: 0.25s;
 
 }
@@ -173,24 +173,32 @@ h2 {
 .language-icon h2{
     font-size: 14px;
     font-weight: 600;
+    margin-bottom: 2px;
 }
 
 .language-icon h6{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
     font-size: 11px;
     font-weight: 500;
-    margin-top: -15px;
-    margin-bottom: 8px;
+    margin-top: 0px;
+    margin-bottom: 3px;
 }
 
 .language-icon span{
     font-size: 17px;
-    align-items: center;
     font-weight: 900;
+    flex-shrink: 0;
+    line-height: 1.4;
 }
 
 .language-icon a{
     color: rgb(206, 116, 233);
-    font-size: 14px;
+    font-size: 13px;
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 6px;
 }
 
 .language-icon:hover{
