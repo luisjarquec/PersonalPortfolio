@@ -126,6 +126,13 @@ h2 {
     justify-content: center;
 }
 
+.skill-icon i img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+}
+
 .skill-icon:hover i{
     color: rgb(206, 116, 233);
     transition: color 0.55s ease;
@@ -259,9 +266,15 @@ h2 {
     }
 
     .languages-grid{
-        width: 275px;
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 0;
     }
-    
+
+    .language-icon{
+        width: auto;
+    }
+
     .language-icon h2{
         font-size: 12px;
     }
@@ -332,6 +345,15 @@ h2 {
     .skill-grid {
         width: 100%;
         gap: 25px;
+    }
+
+    .languages-grid{
+        width: 100%;
+        padding: 0;
+    }
+
+    .language-icon{
+        width: auto;
     }
 }
 
